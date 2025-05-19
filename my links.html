@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youssef Shaaban | تواصل معي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 2rem;
+      color: #333;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+    }
+    p {
+      margin: 0.5rem 0 1.5rem;
+      font-size: 1.2rem;
+    }
+    .link-button {
+      display: block;
+      margin: 0.5rem auto;
+      padding: 0.75rem 1.5rem;
+      width: 80%;
+      max-width: 400px;
+      background: #0077b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+    .link-button.facebook { background: #1877f2; }
+    .link-button.linkedin { background: #0077b5; }
+    .link-button.whatsapp { background: #25D366; }
+    .link-button.email { background: #333; }
+    .link-button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <img src="Asset 2@8x.png" alt="Yousef Logo" class="logo">
+  <h1>يوسف شعبان</h1>
+  <p>مصمم جرافيك ومونتير</p>
+
+  <a class="link-button facebook" href="https://www.facebook.com/profile.php?id=61559953672217" target="_blank">فيسبوك</a>
+  <a class="link-button linkedin" href="https://www.linkedin.com/in/youssef-diab-7aa44532a/" target="_blank">لينكدإن</a>
+  <a class="link-button whatsapp" href="https://wa.me/201223756200" target="_blank">واتساب مباشر</a>
+  <a class="link-button email" href="mailto:youssefshaaban27478@gmail.com">راسلني عبر البريد</a>
+  <a class="link-button" href="tel:01223756200">اتصل بي</a>
+</body>
+</html>
